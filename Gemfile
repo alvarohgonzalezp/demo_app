@@ -4,6 +4,7 @@ ruby '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
+gem 'hirb'
 
 # Use sqlite3 as the database for Active Record
 group :development do
@@ -39,7 +40,7 @@ group :production do
   gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
 end
-gem 'rb-readline'
+gem 'rb-readline', '~> 0.4.2'
 gem 'devise', '~> 3.0.0.rc'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
